@@ -1,5 +1,5 @@
 /******************************************************************************
-!!!!! The code is shit but works. Not tested !!!!!!
+!!!!! The code is shit but works. Not tested for corner cases!!!!!!
 todo: cleanup and improve.  
 *******************************************************************************/
 #include <stdio.h>
