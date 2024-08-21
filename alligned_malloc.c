@@ -17,7 +17,7 @@ void* alligned_malloc(int almt, int bytz){
     printf("diff = %d\n", *(uint8_t*)(temp-1));
     
 	//returns pointer to aligned memory -> temp
-	//	a byte before this address contains the difference between initial malloc pointer and the shifted pointer. 
+	//A byte before temp contains the difference between initial malloc pointer and the shifted pointer. 
 	//It can be accessed using *(uint8_t*)(temp-1). Since its only a byte it can store upto 255. So alignment only possible till 255.
     return temp;	
 	
